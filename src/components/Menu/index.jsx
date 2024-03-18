@@ -69,7 +69,7 @@ function Menu() {
                 paddingTop: i === 1 ? '132px' : i === 2 ? '92px' : i === 3 ? '40px' : '',
                 zIndex: 4-i
               }} 
-              className={`bg-[#F8F8F8] menu-section transition ease-in-out ${(i==1 || i == 3) ? 'duration-[1500ms]' : 'duration-[2000ms]'} ${visibleSections.includes(`section${i+1}`) ? 'opacity-100 translate-y-0' : `opacity-0 ${(i==0 || i == 2) ? '-translate-y-[400px]' : 'translate-y-[400px]'}`}`}
+              className={`bg-[#F8F8F8] menu-section transition ease-in-out ${(i==0 || i == 2) ? 'duration-[3000ms]' : 'duration-[1500ms]'} ${visibleSections.includes(`section${i+1}`) ? 'opacity-100 translate-y-0' : `opacity-0 ${(i==0 || i == 2) ? '-translate-y-[400px]' : 'translate-y-[400px]'}`}`}
             >
               <h1 className='text-[62px] font-din leading-[52px] mb-[19px]'
                 style={{ 
