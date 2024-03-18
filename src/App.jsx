@@ -7,13 +7,15 @@ import Menu from './components/Menu'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Collaboration from './components/Collaboration'
-// import Indicator from './components/Indicator'
+import Indicator from './components/UI/Indicator'
+import RequestBtn from './components/UI/RequestBtn'
 
 function App() {
 
   return (
     <>
-      {/* <Indicator/> */}
+      <Indicator/>
+      <RequestBtn/>
       <Navbar/>
       <HeroSection/>
       <Community/>

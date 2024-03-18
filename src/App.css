@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.gm-style .place-card-large{
-    display: none !important;
-  }
+.gm-style .place-card-large {
+  padding: 9px 4px 9px 11px;
+  display: none;
+}

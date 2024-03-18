@@ -20,10 +20,10 @@ function Collaboration() {
           </div>
         </div>
         <div className='w-[322px] gap-[29px] flex flex-col justify-between'>
-          <p className='text-[#767676] text-[15px] leading-[20px] font-gillSans tracking-[0.1px]'>
+          <p className='text-[#767676] placeholder:text-[#767676] text-[15px] leading-[20px] font-gillSans tracking-[0.1px]'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <p className='text-[#767676] text-[15px] leading-[20px] font-gillSans tracking-[0.1px]'>
+          <p className='text-[#767676] placeholder:text-[#767676] text-[15px] leading-[20px] font-gillSans tracking-[0.1px]'>
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
           </p>
         </div>
@@ -32,32 +32,32 @@ function Collaboration() {
       <div className='grid grid-rows-[repeat(3,60px)] gap-x-[25px] gap-y-[20px] grid-cols-[repeat(2,250px)] mt-[38px]'>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 text-[14px] text-[#333333] font-din tracking-[0.1px]'>name</h2>
-          <input type="text" placeholder='Name' className="w-full border-b bg-[#FFDAC9] bg-bottom border-black focus:outline-none"/>
+          <input type="text" placeholder='Name' className="placeholder:text-[#767676] text-[15px] font-gillSans h-[25px] pb-3 w-full border-b bg-[#FFDAC9] bg-bottom border-[#333333] focus:outline-none"/>
         </div>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 text-[14px] text-[#333333] font-din tracking-[0.1px]'>surname</h2>
-          <input type="text" placeholder='Surname' className="w-full border-b bg-[#FFDAC9] bg-bottom border-black focus:outline-none"/>
+          <input type="text" placeholder='Surname' className="placeholder:text-[#767676] text-[15px] font-gillSans h-[25px] pb-3 w-full border-b bg-[#FFDAC9] bg-bottom border-[#333333] focus:outline-none"/>
         </div>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 text-[14px] text-[#333333] font-din tracking-[0.1px]'>phone</h2>
-          <input type="text" placeholder='Phone' className="w-full border-b bg-[#FFDAC9] bg-bottom border-black focus:outline-none"/>
+          <input type="text" placeholder='Phone' className="placeholder:text-[#767676] text-[15px] font-gillSans h-[25px] pb-3 w-full border-b bg-[#FFDAC9] bg-bottom border-[#333333] focus:outline-none"/>
         </div>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 text-[14px] text-[#333333] font-din tracking-[0.1px]'>email address</h2>
-          <input type="email" placeholder='Email' className="w-full border-b bg-[#FFDAC9] bg-bottom border-black focus:outline-none"/>
+          <input type="email" placeholder='Email' className="placeholder:text-[#767676] text-[15px] font-gillSans h-[25px] pb-3 w-full border-b bg-[#FFDAC9] bg-bottom border-[#333333] focus:outline-none"/>
         </div>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 bg-[#FFDAC9] text-[14px] text-[#333333] font-din tracking-[0.1px]'>experience</h2>
-          <select class="bg-[#FFDAC9] w-full border-none border-b border-black focus:outline-none">
-            <option value="1">Option 1</option>
+          <select value='Select' className="text-[#767676] text-[15px] pb-1.5 font-gillSans bg-[#FFDAC9] w-full border-b border-[#333333] focus:outline-none">
+            <option value="1">Select</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
           </select>
         </div>
         <div className='bg-yellow w-100 flex flex-col gap-[11px] h-[60px]'>
           <h2 className='uppercase h-[25px] flex items-center pb-2 bg-[#FFDAC9] text-[14px] text-[#333333] font-din tracking-[0.1px]'>where did you hear about us?</h2>
-          <select class="bg-[#FFDAC9] w-full border-none border-b border-black focus:outline-none">
-            <option value="1">Option 1</option>
+          <select value='Select' className="text-[#767676] text-[15px] pb-1.5 font-gillSans bg-[#FFDAC9] w-full border-b-[1px] border-[#333333] focus:outline-none">
+            <option value="1">Select</option>
             <option value="2">Option 2</option>
             <option value="3">Option 3</option>
           </select>
