@@ -14,11 +14,11 @@ function App() {
 
   return (
     <>
-      <Indicator/>
+      {/* <Indicator/> */}
       <RequestBtn/>
       <Navbar/>
-      <HeroSection/>
-      <Community/>
+      <HeroSection/>  
+      <Community/>  
       <Location/>
       <Menu/>
       <Collaboration/>
