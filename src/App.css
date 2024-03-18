@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gm-style .place-card-large{
+    display: none !important;
+  }
